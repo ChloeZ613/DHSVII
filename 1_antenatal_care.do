@@ -9,6 +9,7 @@
 	gen c_anc_any = (inrange(m14,1,20)) if m14<=20                         //the non-number label for byte value hard to specify.
 // replace c_anc_any =1 if m2n == 0 // adjusted by m2n, turn m14 = 98 into 1
 
+
 	*c_anc_bp: Blood pressure measured during pregnancy of births in last 2 years
 	g c_anc_bp = 0 if m2n !=.   //  m2n covered more
 	replace c_anc_bp = 1 if m42c == 1
