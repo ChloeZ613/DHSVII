@@ -3,7 +3,7 @@
 ******************************
 *mor_dob: Child date of birth (cmc)
 	g mor_dob = b3
-
+ 
 *mor_wln: Woman line number in HH to match child with mother (original)
 	g mor_wln = v003
 
