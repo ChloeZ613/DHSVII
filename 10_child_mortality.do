@@ -14,7 +14,7 @@
 *mor_ade: Child age at death in months
 	g mor_ade = b7
 	replace mor_ade = . if b13!=0
- 
+  
 	ge age_alive_mnths = mnths_born_bef_int
 	ge time = mor_ade
 	replace time = age_alive_mnths if mor_ali==0
