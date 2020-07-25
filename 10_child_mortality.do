@@ -12,7 +12,7 @@
 	clonevar mor_ali =  b5
 
 *mor_ade: Child age at death in months
-	g mor_ade = b7
+	g mor_ade = b7 
 	replace mor_ade = . if b13!=0
   
 	ge age_alive_mnths = mnths_born_bef_int 
