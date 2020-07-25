@@ -7,7 +7,7 @@
 *mor_wln: Woman line number in HH to match child with mother (original)
 	g mor_wln = v003
 
-*mor_ali: Child still alive (1/0)
+*mor_ali: Child still alive (1/0) 
 	ge mnths_born_bef_int = v008 - b3 /* months born before interview  */
 	clonevar mor_ali =  b5
 
