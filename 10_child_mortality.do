@@ -19,5 +19,5 @@
 	replace time = age_alive_mnths if mor_ali==0
 	replace time = 0 if time<0
 
-*mor_afl: Child age at death imputation flag 
+*mor_afl: Child age at death imputation flag  
 	gen mor_afl = b13
