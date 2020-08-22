@@ -1,7 +1,7 @@
 ******************************  
 *** Child mortality***********   
 ******************************   
-*mor_dob: Child date of birth (cmc)
+*mor_dob: Child date of birth (cmc) 
 	g mor_dob = b3 
   
 *mor_wln: Woman line number in HH to match child with mother (original) 
@@ -20,4 +20,4 @@
 	replace time = 0 if time<0
 
 *mor_afl: Child age at death imputation flag  
-	gen mor_afl = b13
+	gen mor_afl = b13 
